@@ -6,7 +6,7 @@
 TODO: that i must remove the negative values
 
 ### What was the top ranked model that performed?
-TODO: The model with hyperparameters
+TODO: The model with hyperparameters (WeightedEnsemble_L3)
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
