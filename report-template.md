@@ -29,10 +29,11 @@ TODO: in choosing the correct hyper parameters
 (It is done in the notebook code)
 TODO: Replace the image below with your own.
 
-![2022-07-22_07h06_13.png](/content/2022-07-22_07h06_13.png)
+![2022-07-22_07h06_13](https://user-images.githubusercontent.com/85734497/180367963-ebbe6967-4d33-4c36-9fbe-98b50e928cf9.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 (It is done in the notebook code)
+
 
 
 ## Summary
