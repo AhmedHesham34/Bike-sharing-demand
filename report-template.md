@@ -27,19 +27,14 @@ TODO: in choosing the correct hyper parameters
 |--|--|--|--|--|
 |initial|default vals|default vals|default vals|1.84700|
 |add_features|default vals|default vals|default vals|1.97554|
-|hpo|nn_options = { 
-    'num_epochs': 10, 
-    'learning_rate':[1e-4, 1e-2, default=5e-4], 
-    'activation': ['relu', 'softrelu', 'tanh'],  
-    'dropout_prob': [0.0, 0.5, default=0.1], |gbm_options = { 
-    'num_boost_round': 100,  
-    'num_leaves': [lower=26, upper=66, default=36],|default vals|0.47708|
+|hpo|nn_options = {  'num_epochs': 10, 'learning_rate':[1e-4, 1e-2, default=5e-4], 'activation': ['relu', 'softrelu', 'tanh'],  'dropout_prob': [0.0, 0.5, default=0.1], |gbm_options = { 'num_boost_round': 100,  'num_leaves': [lower=26, upper=66, default=36],|default vals|0.47708|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 (It is done in the notebook code)
 TODO: Replace the image below with your own.
 
-![2022-07-22_07h06_13](https://user-images.githubusercontent.com/85734497/180367963-ebbe6967-4d33-4c36-9fbe-98b50e928cf9.png)
+![2022-07-22_20h28_26](https://user-images.githubusercontent.com/85734497/180501459-3eea4db6-eacb-4a5e-a69c-9501698c6964.png)
+
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 ![2022-07-22_07h06_13](https://user-images.githubusercontent.com/85734497/180369888-e49c5ba1-bd22-4846-9ed3-917e9e9ce01c.png)
