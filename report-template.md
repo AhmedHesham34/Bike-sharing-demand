@@ -25,9 +25,15 @@ TODO: in choosing the correct hyper parameters
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|1.84700|1.97554|0.47708|?|
-|add_features|1.84700|1.97554|0.47708|?|
-|hpo|1.84700|1.97554|0.47708|?|
+|initial|default vals|default vals|default vals|1.84700|
+|add_features|default vals|default vals|default vals|1.97554|
+|hpo|nn_options = { 
+    'num_epochs': 10, 
+    'learning_rate':[1e-4, 1e-2, default=5e-4], 
+    'activation': ['relu', 'softrelu', 'tanh'],  
+    'dropout_prob': [0.0, 0.5, default=0.1], |gbm_options = { 
+    'num_boost_round': 100,  
+    'num_leaves': [lower=26, upper=66, default=36],|default vals|0.47708|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 (It is done in the notebook code)
